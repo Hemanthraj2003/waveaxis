@@ -8,4 +8,20 @@ This script scrapes first 3 articles from a news website (BBC in this case) usin
 - Selenium library
 - Chrome WebDriver (compatible with your Chrome browser version)
 
-Selenium comes with webdriver manager which automatically handles the driver installation and updates.
+## Setup
+
+Install the required Python packages:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+## Execution
+
+1. Run the script:
+
+   ```bash
+   python script.py
+   ```
+
+2. The articles will be saved in `articles.txt` in a readable format.
